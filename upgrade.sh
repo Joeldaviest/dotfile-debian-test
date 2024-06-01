@@ -3,8 +3,8 @@
 sudo apt update
 
 SOURCES_LIST="/etc/apt/sources.list"
-NEW_SOURCES="deb http://deb.debian.org/debian/ sid main contrib non-free-firmware
-deb-src http://deb.debian.org/debian/ sid main contrib non-free-firmware"
+NEW_SOURCES="deb http://deb.debian.org/debian/ sid main contrib non-free non-free-firmware
+deb-src http://deb.debian.org/debian/ sid main contrib non-free non-free-firmware"
 
 
 if [ "$EUID" -ne 0 ]; then
